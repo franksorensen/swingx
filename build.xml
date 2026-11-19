@@ -64,7 +64,7 @@
             <arg value="${package.name}"/>
             <arg value="-d"/>
             <arg value="${build.home}"/>
-            <arg value="${dist.home}/${package.name}/module-info.java"/>
+            <arg value="${dist.home}/swingx.all/module-info.java"/>
         </exec>		
 		
 		<delete file="${dist.home}/${package.name}-${pominfo.version}.jar"></delete>
